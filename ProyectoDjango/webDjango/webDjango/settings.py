@@ -54,7 +54,7 @@ ROOT_URLCONF = 'webDjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],#Acá le indicamos la carpeta a donde se tiene que dirijir para buscar los templates
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
